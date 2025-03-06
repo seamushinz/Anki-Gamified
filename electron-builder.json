@@ -1,0 +1,14 @@
+{
+  "appId": "com.SeamusH.app",
+  "files": ["dist-electron", "dist-react"],
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Education"
+  },
+  "win": {
+    "target":  ["portable", "msi"]
+  }
+}
